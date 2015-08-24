@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ConnectFive</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game_button_text">New Game</string>
+    <string name="winner_O">Winner is: O</string>
+    <string name="winner_X">Winner is: X</string>
+    <string name="tie_game">Draw!</string>
+</resources>
