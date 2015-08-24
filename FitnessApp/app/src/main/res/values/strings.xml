@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_exercise">Add Your Exercise</string>
+    <string name="about_message">Gym Journal, v1.0, 2015</string>
+    <string name="help_message">Click + button to add exercises.</string>
+    <string name="exercise_added_success">Exercise added</string>
+    <string name="exercise_added_cancel">Exercise adding cancelled</string>
+    <string name="cancel_snack_bar">Cancel</string>
+    <string name="add_exercise">Add exercise</string>
+    <string name="about_button_drawer">About</string>
+    <string name="help_button_drawer">Help</string>
+    <string name="exercise_name_main_screen">Exercise</string>
+    <string name="exercise_weight_main_screen">Pounds</string>
+    <string name="exercise_sets_main_screen">Sets</string>
+    <string name="exercise_reps_main_screen">Reps</string>
+    <string name="delete_button_main_screen">Delete</string>
+    <string name="create_exercise_type">Target Muscle Group:</string>
+    <string name="hint_exercise_name">Exercise Name</string>
+    <string name="hint_exercise_sets">Amount of sets (# only)</string>
+    <string name="hint_exercise_reps"># of reps each set (# only)</string>
+    <string name="hint_exercise_weight">Weight of each rep (# only)</string>
+    <string name="save_button_exercise_create">Save</string>
+    <string name="menu_top_right_add_button">Add</string>
+    <string name="error_create_exercise">Error: All fields must contain data!</string>
+</resources>

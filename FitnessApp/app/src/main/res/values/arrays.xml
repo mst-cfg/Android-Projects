@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercisetypes_array">
+        <item>Core</item>
+        <item>Bicep</item>
+        <item>Shoulders</item>
+        <item>Chest</item>
+        <item>Quads</item>
+        <item>Hamstrings</item>
+        <item>Glutes</item>
+        <item>Calves</item>
+        <item>Full Body</item>
+    </string-array>
+</resources>
