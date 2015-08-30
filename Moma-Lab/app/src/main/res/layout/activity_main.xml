@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/teal"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/transitions"/>
+
+    <Button
+        android:id="@+id/neonGreen"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/teal"
+        android:background="#93fd18"/>
+
+    <Button
+        android:id="@+id/white"
+        android:layout_width="220dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="10dip"
+        android:layout_alignParentRight="true"
+        android:background="#ffffff"
+        android:layout_toRightOf="@id/teal"/>
+
+    <Button
+        android:id="@+id/fuchsia"
+        android:layout_below="@id/white"
+        android:layout_marginLeft="10dip"
+        android:layout_alignParentRight="true"
+        android:layout_width="220dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="10dip"
+        android:background="#cf8992"
+        android:layout_toRightOf="@id/neonGreen"/>
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@id/neonGreen"
+        android:layout_below="@id/fuchsia"
+        android:layout_alignParentRight="true"
+        android:background="#f27d0c"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:max="200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
