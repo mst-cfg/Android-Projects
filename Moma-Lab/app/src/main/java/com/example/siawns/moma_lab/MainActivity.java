@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private Button button3;
     private Button button4;
     private Button button5;
-    private int seekBarProg;
     private static final int MENU_MORE_INFORMATION = Menu.FIRST;
     private static final String URL = "http://www.moma.org";
     private static final String CHOOSER_TEXT = "Inspired by artists showcased at the Museum of " +
@@ -46,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         button2 = (Button) findViewById(R.id.neonGreen);
         button4 = (Button) findViewById(R.id.fuchsia);
         button5 = (Button) findViewById(R.id.orange);
-        seekBarProg = seekBar.getProgress();
         final Button[] buttonArray = {button1, button2, button3, button4, button5};
 
 
